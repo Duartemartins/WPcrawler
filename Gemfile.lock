@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    wpcrawler (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake (~> 12.0)
+  wpcrawler!
+
+BUNDLED WITH
+   2.1.4

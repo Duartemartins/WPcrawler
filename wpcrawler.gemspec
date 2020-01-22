@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/wpcrawler.rb"]
   s.require_paths = ["lib"]
   s.homepage    = 'https://rubygems.org/gems/wpcrawler'
-  s.executables << 'wpcrawler'
+  s.executables = ['wpcrawler']
   s.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   s.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
