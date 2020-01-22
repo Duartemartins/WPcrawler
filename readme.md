@@ -1,7 +1,7 @@
 
 This gem returns a CSV of all pages or posts from a wordpress website with an exposed api.
 
-The attributes returned are publishing date, title, url, author number, and publishing state. For example:
+The attributes returned are publishing date, title, url, author number, and publishing status. For example:
 
 | Date        | Title           | Author  | Link  | Status  |
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
