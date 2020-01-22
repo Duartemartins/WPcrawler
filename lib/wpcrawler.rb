@@ -1,6 +1,7 @@
 require 'JSON'
 require 'http'
 require 'tty-spinner'
+require 'wpcrawler/version'
 
 class Crawler
   attr_accessor :url
