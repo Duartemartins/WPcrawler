@@ -11,6 +11,7 @@ in IRB:
 
 require 'wpcrawler'
 site = Crawler.new("www.techcrunch.com", "pages")
+
 site.scrape
 
 or in the command line:
