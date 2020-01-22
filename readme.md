@@ -14,6 +14,7 @@ The two method arguments are the website, and whether you want pages or posts.
 #### in IRB:
 
 `require 'wpcrawler'`
+
 `site = Crawler.new("www.techcrunch.com", "pages")`
 
 `site.scrape`
@@ -22,13 +23,15 @@ The two method arguments are the website, and whether you want pages or posts.
 
 If you want to make a simple CLI create a script with the following:
 
-``` site = Crawler.new(ARGV[0], ARGV[1])
+``` 
+site = Crawler.new(ARGV[0], ARGV[1])
 
 if ARGV[1] == "pages" or ARGV[1] == "posts"
   site.scrape
 else
 	puts "ERROR: type needs to be pages or posts"
-end ```
+end 
+```
 
 and then use 
 
