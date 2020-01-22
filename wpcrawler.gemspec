@@ -5,7 +5,7 @@ require_relative 'lib/wpcrawler/version'
 
 Gem::Specification.new do |s|
   s.name        = 'wpcrawler'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2020-01-22'
   s.platform      = Gem::Platform::RUBY
   s.summary     = "Simple wordpress crawler"
