@@ -1,6 +1,10 @@
 
 This gem returns a CSV of all pages or posts from a wordpress website with an exposed api.
 
+The attributes returned are title, url, author number, and publishing state.
+
+This CSV is separated with pipes (|) to ensure commas don't break page titles, so keep this in mind when importing into spreadsheets.
+
 Usage:
 
 The two method arguments are the website, and whether you want pages or posts.
