@@ -13,11 +13,13 @@ The two method arguments are the website, and whether you want pages or posts.
 
 #### in IRB:
 
-`require 'wpcrawler'`
+```
+require 'wpcrawler'
 
-`site = Crawler.new("www.techcrunch.com", "pages")`
+site = Crawler.new("www.techcrunch.com", "pages")
 
-`site.scrape`
+site.scrape
+```
 
 #### CLI
 
