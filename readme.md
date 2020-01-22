@@ -29,7 +29,7 @@ site = Crawler.new(ARGV[0], ARGV[1])
 if ARGV[1] == "pages" or ARGV[1] == "posts"
   site.scrape
 else
-	puts "ERROR: type needs to be pages or posts"
+  puts "ERROR: type needs to be pages or posts"
 end 
 ```
 
