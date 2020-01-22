@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+ require "wpcrawler/cli"
+
+ Crawler::CLI.start

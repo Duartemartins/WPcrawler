@@ -16,13 +16,17 @@ Gem::Specification.new do |s|
   s.executables = ['wpcrawler']
   s.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  s.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  # s.metadata["allowed_push_host"] = "'http://mygemserver.com'"
 
   s.metadata["homepage_uri"] = s.homepage
   s.metadata["source_code_uri"] = "https://www.github.com/duartemartins/wpcrawler"
   s.metadata["documentation_uri"] = "https://www.github.com/duartemartins/wpcrawler"
-  s.add_development_dependency "bundler", "~> 1.3"
+  s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
+  s.add_runtime_dependency "thor"
+  s.add_runtime_dependency "JSON"
+  s.add_runtime_dependency "http"
+  s.add_runtime_dependency "tty-spinner"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
